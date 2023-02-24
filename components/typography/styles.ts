@@ -15,4 +15,6 @@ export const Container = styled("h1").attrs<TypographyTypes>(({ tag }) => ({
     ]};
     text-align: ${textAlign};
   `}
+  padding: 0;
+  margin: 0;
 `;

@@ -15,7 +15,7 @@ interface ITypography {
     children: ReactNode;
 };
 
-const Typography = ({ tag = "p", color = "blue500", fontFamily = "ubuntu", textAlign = "left", fontSize = "fs100", fontWeight = "regular", children }: TypographyTypes & ITypography): ReactElement => {
+const Typography = ({ tag = "p", color = "green", fontFamily = "ubuntu", textAlign = "left", fontSize = "fs100", fontWeight = "regular", children }: TypographyTypes & ITypography): ReactElement => {
     return (
         <Container tag={tag} color={color} fontFamily={fontFamily} textAlign={textAlign} fontWeight={fontWeight} fontSize={fontSize}>
             {children}
