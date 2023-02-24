@@ -1,12 +1,21 @@
-import { ReactElement } from "react";
-import { Container } from "./styles";
+import { ReactElement, ReactNode } from "react";
+import { Container, Title } from "./styles";
 
-const Button = (): ReactElement => {
+export type PrimaryTypes = {
+    color?: string;
+    bgColor?: string;
+    width?: string;
+    children: ReactNode | ReactNode[];
+};
+
+const Primary = ({ bgColor = "blue300", color = "white", width = "max-content", children }: PrimaryTypes): ReactElement => {
     return (
-        <Container>
-            <h1>button</h1>
+        <Container bgColor={bgColor} width={width}>
+            <Title color={color}>
+                {children}
+            </Title>
         </Container>
     )
 };
 
-export { Button };
+export { Primary };
