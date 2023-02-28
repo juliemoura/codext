@@ -16,7 +16,7 @@ export const Container = styled.div<PrimaryTypes>`
   `};
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   padding: 15px 25px;
-  border-radius: 5px;
+  border-radius: 3px;
 `;
 
 export const Title = styled.p<PrimaryTypes>``;

@@ -1,3 +1,4 @@
+import { CodextLogo } from "@assets/svgs/CodextLogo";
 import { Primary } from "@components/buttons";
 import { Link } from "@components/link";
 import { Container, LinkContainer } from "./styles";
@@ -5,9 +6,7 @@ import { Container, LinkContainer } from "./styles";
 const SuperiorContent = () => {
     return (
         <Container>
-            <h1>
-                Logo
-            </h1>
+            <CodextLogo width={120} height={35} />
             <LinkContainer>
                 <Link href="/">Home</Link>
                 <Link href="/">Services</Link>
