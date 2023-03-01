@@ -16,7 +16,7 @@ const InferiorContent = () => {
                 <Primary>Try A Live Demo</Primary>
             </LeftContainer>
             <RightContainer>
-                <Principal width={500} height={500} />
+                <Principal width={600} height={600} />
             </RightContainer>
         </Container>
     )
