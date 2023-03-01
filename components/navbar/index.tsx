@@ -1,14 +1,19 @@
-import { InferiorContent } from "./inferiorContent";
-import { Container } from "./styles";
-import { SuperiorContent } from "./superiorContent";
+import { Desktop } from "./desktop";
+import { Mobile } from "./mobile";
+import { ContainerDesktop, ContainerMobile } from "./styles";
 
 const Navbar = () => {
-    return(
-        <Container>
-            <SuperiorContent />
-            <InferiorContent />
-        </Container>
-    )
-}
+  return (
+    <>
+      <ContainerDesktop>
+        <Desktop />
+      </ContainerDesktop>
+
+      <ContainerMobile>
+        <Mobile />
+      </ContainerMobile>
+    </>
+  );
+};
 
 export { Navbar };

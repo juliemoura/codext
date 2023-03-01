@@ -3,7 +3,6 @@ import { CodextTheme } from "@themes/CodextTheme";
 import { Primary } from "@components/buttons";
 import { Typography } from "@components/typography";
 import { Navbar } from "@components/navbar";
-import { Link } from "@components/link";
 
 export default function Home() {
   return (
