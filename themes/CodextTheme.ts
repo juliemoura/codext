@@ -7,7 +7,8 @@ export const CodextTheme = {
     pumpkin: "#EF821E",
     red: "#AF3E3E",
     pink: "#FAEAEA",
-
+    gray: "#939799",
+    
     // purple
     purple100: "#F4E7F6",
     purple200: "#C333DB",

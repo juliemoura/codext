@@ -3,7 +3,7 @@
 
 body {
     overflow: scroll !important;
-    background-color: #FFF !important;
+    background-color: #FDFDFD !important;
 }
 
 body::-webkit-scrollbar {

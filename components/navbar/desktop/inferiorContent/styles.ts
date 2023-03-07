@@ -5,6 +5,7 @@ export const Container = styled.div`
   justify-content: space-between;
   background-color: ${({ theme }) => theme.colors.purple500};
   padding: 20px 110px;
+  margin-top: -2px;
 `;
 
 export const LeftContainer = styled.div`
