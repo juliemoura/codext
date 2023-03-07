@@ -4,12 +4,14 @@ import { Primary } from "@components/buttons";
 import { Typography } from "@components/typography";
 import { Navbar } from "@components/navbar";
 import { AboutProduct } from "@sections/aboutProduct";
+import { Features } from "@sections/features";
 
 export default function Home() {
   return (
     <ThemeProvider theme={CodextTheme}>
       <Navbar />
       <AboutProduct />
+      <Features />
       {/* <Typography fontWeight="regular" fontSize="fs200">Codext Page</Typography>
       <Primary>Try a free trial</Primary> */}
 

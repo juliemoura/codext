@@ -2,8 +2,9 @@ import { CodextLogo } from "@assets/svgs/CodextLogo";
 import { Container } from "./styles";
 
 import Drawer from "../components/drawer";
+import { ReactElement } from "react";
 
-const SuperiorContent = () => {
+const SuperiorContent = (): ReactElement => {
     return (
         <Container>
             <CodextLogo width={120} height={35} />

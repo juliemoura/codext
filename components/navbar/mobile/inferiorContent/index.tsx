@@ -1,10 +1,10 @@
 import { Principal } from "@assets/svgs/Principal";
 import { Primary } from "@components/buttons";
 import { Typography } from "@components/typography";
+import { ReactElement } from "react";
 import { Container, LeftContainer, RightContainer } from "./styles";
-import { Row } from 'antd';
 
-const InferiorContent = () => {
+const InferiorContent = (): ReactElement => {
     return (
         <Container>
             <LeftContainer xs={24} sm={24} md={24} lg={14} xl={14}>

@@ -7,8 +7,7 @@ export const CodextTheme = {
     pumpkin: "#EF821E",
     red: "#AF3E3E",
     pink: "#FAEAEA",
-    gray: "#939799",
-    
+        
     // purple
     purple100: "#F4E7F6",
     purple200: "#C333DB",
@@ -24,6 +23,10 @@ export const CodextTheme = {
     // brown
     brown100: "#F9F2E8",
     brown200: "#9B6717",
+
+    // gray
+    gray: "#939799",
+    gray100: "#DCDCDC",
   },
   fontSize: {
     fs50: "0.625rem", //10px
