@@ -11,6 +11,7 @@ export const CodextTheme = {
     // purple
     purple100: "#F4E7F6",
     purple200: "#C333DB",
+    purple400: "#7D3FD7",
     purple500: "#551BA9",
 
     // blue

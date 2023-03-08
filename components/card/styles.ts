@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 import { FeatureTypes } from ".";
 
 export const Container = styled.div`
-  padding: 40px 10px;
+  padding: 40px 0 0 0;
   width: 250px;
   display: flex;
   flex-direction: column;
@@ -31,9 +31,12 @@ export const TypographyContainer = styled.div`
   gap: 5px;
   margin-top: 40px;
   border: 1px solid ${({ theme }) => theme.colors.transparent};
+  padding: 20px 20px 20px 20px;
 
   &:hover {
-    border: 1px solid blue;
+    background: ${({ theme }) => theme.colors.purple100};
+    border-radius: 99px 99px 0 0;
     cursor: pointer;
+    transform: scale(1.05);
   }
 `;
