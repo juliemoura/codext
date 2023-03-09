@@ -8,6 +8,7 @@ import { Features } from "@sections/features";
 import { Accordion } from "@components/accordion";
 import { FiChevronDown } from "react-icons/fi";
 import { Questions } from "@sections/questions";
+import { Price } from "@sections/price";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <AboutProduct />
       <Features />
       <Questions />
+      <Price />
     </ThemeProvider>
   )
 }

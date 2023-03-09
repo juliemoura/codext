@@ -1,7 +1,9 @@
 import { Col, Row } from "antd";
 import styled from "styled-components";
 
-export const Container = styled(Row)`
+export const Container = styled.section``;
+
+export const Content = styled(Row)`
   padding: 80px 40px;
   display: flex;
   justify-content: center;

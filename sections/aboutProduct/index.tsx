@@ -1,6 +1,6 @@
 import { Team } from "@assets/svgs/Team";
 import { Typography } from "@components/typography";
-import { Container, ContentInformation, Icon, LeftContainer, RightContainer, TextContent } from "./styles";
+import { Container, Content, ContentInformation, Icon, LeftContainer, RightContainer, TextContent } from "./styles";
 
 import { TiArrowBack } from 'react-icons/ti';
 
@@ -8,6 +8,7 @@ import { TiArrowBack } from 'react-icons/ti';
 const AboutProduct = () => {
     return (
         <Container>
+            <Content>
             <LeftContainer xs={24} sm={24} md={24} lg={12} xl={12}>
                 <Team width={600} height={250} />
             </LeftContainer>
@@ -43,6 +44,7 @@ const AboutProduct = () => {
                     </TextContent>
                 </ContentInformation>
             </RightContainer>
+            </Content>
         </Container>
     )
 }

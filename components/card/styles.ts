@@ -34,8 +34,6 @@ export const TypographyContainer = styled.div`
   padding: 20px 20px 20px 20px;
 
   &:hover {
-    background: ${({ theme }) => theme.colors.purple100};
-    border-radius: 99px 99px 0 0;
     cursor: pointer;
     transform: scale(1.05);
   }
