@@ -14,17 +14,17 @@ export const CardContainer = styled.div`
   justify-content: center;
   align-items: center;
 
-  @media (max-width: 882px) {
+  @media (max-width: 957px) {
     flex-direction: column;
     gap: 20px;
   }
 
-  @media (min-width: 883px) and (max-width: 1090px) {
+  @media (min-width: 958px) and (max-width: 1090px) {
     gap: 10px;
   }
 
   @media (min-width: 1091px) {
-    gap: 50px;
+    gap: 40px;
   }
 `;
 

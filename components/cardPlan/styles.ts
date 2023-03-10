@@ -4,7 +4,7 @@ import { CardTypes } from ".";
 export const Container = styled.div<CardTypes>`
   width: max-content;
   border-radius: 4px;
-  padding: 30px 40px;
+  padding: 30px 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
