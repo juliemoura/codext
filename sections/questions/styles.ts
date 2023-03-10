@@ -7,12 +7,12 @@ export const Content = styled(Row)`
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 60px;
+    padding: 150px 60px;
     gap: 30px;
 
-    @media(max-width: 1020px){
-        padding: 40px 20px;
-    }
+    @media(max-width: 1020px) { 
+        padding: 60px 20px;
+    };
 `;
 
 export const LeftContainer = styled(Col)``;

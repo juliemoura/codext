@@ -37,7 +37,7 @@ export const ToggleGroupRoot = styled(ToggleGroup.Root)`
   background-color: ${({ theme }) => theme.colors.blue300};
   border-radius: 4px;
   box-shadow: 0 2px 10px black;
-  margin: 10px 0 70px 0;
+  margin: 0 0 40px 0;
   width: max-content;
 `;
 
