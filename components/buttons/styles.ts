@@ -2,15 +2,15 @@ import styled, { css } from "styled-components";
 import { PrimaryTypes } from ".";
 
 export const Container = styled.div<PrimaryTypes>`
-  ${({ theme, width }) => css`
+  ${({ theme, width, bgColor, hoverColor }) => css`
     font-family: ${theme.fontFamily.ubuntu};
-    background: ${theme.colors.blue300};
+    background: ${theme.colors[bgColor as keyof typeof theme.colors]};
     color: ${theme.colors.white};
     width: ${width === "max-content" ? "max-content" : "100%"};
 
     &:hover {
-      background: ${theme.colors.blue200};
-      color: ${theme.colors.blue400};
+      background: ${theme.colors[hoverColor as keyof typeof theme.colors]};
+      color: ${theme.colors.black};
       cursor: pointer;
     }
   `};
