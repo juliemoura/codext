@@ -12,7 +12,7 @@ const Footer = () => {
     return (
         <Container>
             <UpContent>
-                <Col xs={24} sm={24} md={24} lg={5} xl={5}>
+                <Col xs={24} sm={24} md={24} lg={6} xl={6}>
                     <Content>
                         <CodextLogo width={120} height={35} />
                         <Typography fontSize="fs75" color="gray" fontFamily="inter">

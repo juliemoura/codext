@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const Container = styled.footer`
   margin-top: 40px;
   background: ${({ theme }) => theme.colors.blue500};
-  padding: 40px 40px;
+  padding: 40px 50px;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -18,7 +18,7 @@ export const UpContent = styled(Row)`
   padding-bottom: 40px;
 
   @media (max-width: 1020px) {
-    gap: 20px;
+    gap: 40px;
   }
 `;
 
