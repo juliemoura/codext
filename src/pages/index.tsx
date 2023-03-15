@@ -11,6 +11,7 @@ import { Questions } from "@sections/questions";
 import { Price } from "@sections/price";
 import { UsersReview } from "@sections/usersReview";
 import { News } from "@sections/news";
+import { Footer } from "@components/footer";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Price />
       <UsersReview />
       <News />
+      <Footer />
     </ThemeProvider>
   )
 }

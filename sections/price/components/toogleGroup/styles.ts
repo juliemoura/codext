@@ -6,7 +6,7 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  margin: 30px 0;
 `;
 
 export const CardContainer = styled.div`
@@ -14,12 +14,12 @@ export const CardContainer = styled.div`
   justify-content: center;
   align-items: center;
 
-  @media (max-width: 957px) {
+  @media (max-width: 1019px) {
     flex-direction: column;
     gap: 20px;
   }
 
-  @media (min-width: 958px) and (max-width: 1090px) {
+  @media (min-width: 1020px) and (max-width: 1090px) {
     gap: 10px;
   }
 
