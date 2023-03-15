@@ -20,12 +20,24 @@ export const Container = styled.button<PrimaryTypes>`
   padding: 15px 25px;
   border-radius: 3px;
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media(max-width: 768px) {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const Title = styled(Link)<PrimaryTypes>`
-  color: ${({ theme }) => theme.colors.white};
+  color: ${({ theme, color }) => theme.colors[color as keyof typeof theme.colors]};
   text-decoration: none;
   font-size: ${({ theme }) => theme.fontSize.fs100};
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   &:hover {
     color: ${({ theme }) => theme.colors.black};

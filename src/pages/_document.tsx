@@ -31,7 +31,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt-BR">
         <Head>
-          <title>Codext</title>
+          <link rel="shortcut icon" href="/favicon.ico" />
         </Head>
         <body>
           <Main />

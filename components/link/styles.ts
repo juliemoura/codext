@@ -8,6 +8,7 @@ export const Container = styled(Link)`
 export const Title = styled.div<{ color: string, hoverColor: string }>`
   width: max-content;
   padding-bottom: 2px;
+  display: flex;
 
   ${({ theme, color, hoverColor }) => css`
     font-family: ${theme.fontFamily.ubuntu};
