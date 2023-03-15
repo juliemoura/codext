@@ -3,4 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig
+module.exports = {
+  images: {
+    domains: ['yt3.googleusercontent.com', 'akamai.sscdn.co', 'cdns-images.dzcdn.net'],
+  },
+};

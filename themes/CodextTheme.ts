@@ -10,6 +10,7 @@ export const CodextTheme = {
         
     // purple
     purple100: "#F4E7F6",
+    purple150: "#A997C6",
     purple200: "#C333DB",
     purple400: "#7D3FD7",
     purple500: "#551BA9",
@@ -28,6 +29,7 @@ export const CodextTheme = {
     // gray
     gray: "#939799",
     gray100: "#DCDCDC",
+    gray300: "#7D7D7D",
   },
   fontSize: {
     fs50: "0.625rem", //10px
