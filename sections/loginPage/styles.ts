@@ -10,7 +10,7 @@ export const Container = styled.section`
 
   @media (max-width: 768px) {
     padding: 40px;
-    height: max-content;
+    height: 100%;
   }
 `;
 
