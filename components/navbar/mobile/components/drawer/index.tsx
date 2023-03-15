@@ -11,7 +11,7 @@ import {
 import { Typography } from "@components/typography";
 import { Primary } from "@components/buttons";
 
-import { BsList } from "react-icons/bs";
+import { BsList, BsPatchQuestion } from "react-icons/bs";
 import { ImPriceTags } from "react-icons/im";
 import { RiUserVoiceFill } from "react-icons/ri";
 import { MdClose, MdHome } from "react-icons/md";
@@ -44,28 +44,32 @@ const Drawer = () => {
       >
         <DrawerContent>
           <LinkContainer>
-            <LinkContent href="/">
+            <LinkContent href="#about">
               <MdHome color="#43B4EE" size={20} />
-              <Typography color="blue500">home</Typography>
+              <Typography color="blue500">about</Typography>
             </LinkContent>
-            <LinkContent href="/">
+            <LinkContent href="#services">
               <IoMdSettings color="#43B4EE" size={20} />
               <Typography color="blue500">services</Typography>
             </LinkContent>
-            <LinkContent href="/case">
+            <LinkContent href="#questions">
+              <BsPatchQuestion color="#43B4EE" size={20} />
+              <Typography color="blue500">questions</Typography>
+            </LinkContent>
+            <LinkContent href="#pricing">
               <ImPriceTags color="#43B4EE" size={20} />
               <Typography color="blue500">pricing</Typography>
             </LinkContent>
-            <LinkContent href="/case">
+            <LinkContent href="#testmonials">
               <RiUserVoiceFill color="#43B4EE" size={20} />
               <Typography color="blue500">testmonials</Typography>
             </LinkContent>
-            <LinkContent href="/case">
+            <LinkContent href="#blog">
               <GoTextSize color="#43B4EE" size={20} />
               <Typography color="blue500">blog</Typography>
             </LinkContent>
           </LinkContainer>
-          <Primary>Free trial</Primary>
+          <Primary href="/login">Free trial</Primary>
         </DrawerContent>
       </DrawerContainer>
     </Container>

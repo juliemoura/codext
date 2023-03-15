@@ -4,7 +4,7 @@ import { Container } from "./styles";
 
 const Price = () => {
     return (
-        <Container>
+        <Container id="pricing">
             <Typography fontSize="fs550" color="blue500" textAlign="center" fontWeight="bold">
                 Choose your best pricing plan
             </Typography>

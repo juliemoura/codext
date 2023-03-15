@@ -13,7 +13,7 @@ const InferiorContent = () => {
                 <Typography fontSize="fs100" fontFamily="inter" fontWeight="regular">
                     Codext is a leading SAAS system that has revolutionized the way businesses manage their operations. With its intuitive interface and comprehensive features, Codext has established itself as the best SAAS system in the market.
                 </Typography>
-                <Primary>Try A Live Demo</Primary>
+                <Primary href="/login">Try A Live Demo</Primary>
             </LeftContainer>
             <RightContainer>
                 <Principal width={600} height={600} />

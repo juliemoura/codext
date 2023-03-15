@@ -10,6 +10,7 @@ import { FiChevronDown } from "react-icons/fi";
 import { Questions } from "@sections/questions";
 import { Price } from "@sections/price";
 import { UsersReview } from "@sections/usersReview";
+import { News } from "@sections/news";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Questions />
       <Price />
       <UsersReview />
+      <News />
     </ThemeProvider>
   )
 }

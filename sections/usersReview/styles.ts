@@ -1,16 +1,22 @@
-import { Row, Col } from "antd";
+import { Row } from "antd";
 import styled from "styled-components";
 
 export const Container = styled.section`
-    padding: 150px 60px;
-    gap: 20px;
-    display: flex;
-    flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
+  @media (max-width: 1130px)  {
+    height: 100%;
+  };
 
-    @media(max-width: 1020px) { 
-        padding: 60px 20px;
-    };
+  @media(max-width: 768px) {
+    padding: 20px;
+  }
 `;
 
 export const CardUserContainer = styled(Row)`
@@ -19,4 +25,5 @@ export const CardUserContainer = styled(Row)`
     justify-content: center;
     gap: 30px;
     padding: 30px 20px;
+
 `;

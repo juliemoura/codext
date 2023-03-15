@@ -5,7 +5,7 @@ import { RightContainer, Container, LeftContainer, Content } from "./styles";
 
 const Questions = () => {
     return (
-        <Container>
+        <Container id="questions">
             <Content>
                 <LeftContainer xs={24} sm={24} md={11} lg={11} xl={11}>
                     <Typography fontSize="fs550" color="black" textAlign="center">

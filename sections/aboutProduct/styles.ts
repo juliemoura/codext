@@ -1,16 +1,26 @@
 import { Col, Row } from "antd";
 import styled from "styled-components";
 
-export const Container = styled.section``;
-
-export const Content = styled(Row)`
-  padding: 150px 40px;
+export const Container = styled.section`
+  height: 100vh;
+  width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
+
+  @media (max-width: 768px){
+    height: 100%;
+  }
+`;
+
+export const Content = styled(Row)`
+  display: flex;
+  justify-content: center;
+  padding: 0 30px;
 
   @media (max-width: 991px) {
     padding: 60px 20px;
-  } ;
+  };
 `;
 
 export const LeftContainer = styled(Col)`

@@ -8,12 +8,13 @@ export type PrimaryTypes = {
     width?: string;
     hoverColor?: keyof typeof CodextTheme.colors;
     children: ReactNode | ReactNode[];
+    href?: string;
 };
 
-const Primary = ({ bgColor = "blue300", color = "white", width = "max-content", hoverColor= "blue200", children }: PrimaryTypes): ReactElement => {
+const Primary = ({ bgColor = "blue300", color = "white", width = "max-content", hoverColor= "blue200", href = "/", children }: PrimaryTypes): ReactElement => {
     return (
         <Container bgColor={bgColor} width={width} hoverColor={hoverColor}>
-            <Title color={color}>
+            <Title color={color} href={href} target="_blank">
                 {children}
             </Title>
         </Container>

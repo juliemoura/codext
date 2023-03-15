@@ -13,7 +13,7 @@ export const LinkContainer = styled.div`
   gap: 20px;
   align-items: center;
 
-  > :nth-child(5) {
+  > :nth-child(6) {
     margin-right: 30px;
   }
 `;

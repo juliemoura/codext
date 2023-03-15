@@ -56,7 +56,7 @@ const CardPlan = ({ bgColor = "blue300", hoverColor = "blue200", abr = "mo", hov
                     </Typography>
                 </InformationContainer>
             </InformationsContent>
-            <Primary bgColor={bgColor} hoverColor={hoverColor}>Try this plan</Primary>
+            <Primary bgColor={bgColor} hoverColor={hoverColor} href="/login">Try this plan</Primary>
         </Container>
     )
 };

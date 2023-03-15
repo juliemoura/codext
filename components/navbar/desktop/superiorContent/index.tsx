@@ -8,12 +8,13 @@ const SuperiorContent = () => {
         <Container>
             <CodextLogo width={120} height={35} />
             <LinkContainer>
-                <Link href="/">Home</Link>
-                <Link href="/">Services</Link>
-                <Link href="/">Pricing</Link>
-                <Link href="/">Testmonials</Link>
-                <Link href="/">Blog</Link>
-                <Primary>Free trial</Primary>
+                <Link href="#about">About</Link>
+                <Link href="#services">Services</Link>
+                <Link href="#questions">Questions</Link>
+                <Link href="#pricing">Pricing</Link>
+                <Link href="#testmonials">Testmonials</Link>
+                <Link href="#blog">Blog</Link>  
+                <Primary href="/login">Free trial</Primary>
             </LinkContainer>
         </Container>
     )

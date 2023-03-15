@@ -1,11 +1,14 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-    padding: 0 20px;
-    display: flex;
-    flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    @media(max-width: 768px) {
-        padding: 20px 0;
-    }
+  @media (max-width: 1130px) {
+    height: 100%;
+  };
 `;
