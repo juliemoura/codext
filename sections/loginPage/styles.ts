@@ -9,8 +9,8 @@ export const Container = styled.section`
   justify-content: center;
 
   @media (max-width: 768px) {
-    padding: 40px;
-    height: 100%;
+    padding: 100px 50px;
+    height: 100vh;
   }
 `;
 
